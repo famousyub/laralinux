@@ -1,0 +1,138 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\TAKIACADEMY\\Desktop\\carthago\\Server\\Server.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\TAKIACADEMY\\Desktop\\carthago\\Server\\Server.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\TAKIACADEMY\\Desktop\\carthago\\Server\\Server.csproj",
+        "projectName": "Server",
+        "projectPath": "C:\\Users\\TAKIACADEMY\\Desktop\\carthago\\Server\\Server.csproj",
+        "packagesPath": "C:\\Users\\TAKIACADEMY\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\TAKIACADEMY\\Desktop\\carthago\\Server\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\TAKIACADEMY\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\TAKIACADEMY\\Desktop\\carthago\\Website\\Website.msbuildproj": {
+                "projectPath": "C:\\Users\\TAKIACADEMY\\Desktop\\carthago\\Website\\Website.msbuildproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Peachpie.AspNetCore.Web": {
+              "target": "Package",
+              "version": "[1.0.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\TAKIACADEMY\\Desktop\\carthago\\Website\\Website.msbuildproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\TAKIACADEMY\\Desktop\\carthago\\Website\\Website.msbuildproj",
+        "projectName": "carthago",
+        "projectPath": "C:\\Users\\TAKIACADEMY\\Desktop\\carthago\\Website\\Website.msbuildproj",
+        "packagesPath": "C:\\Users\\TAKIACADEMY\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\TAKIACADEMY\\Desktop\\carthago\\Website\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\TAKIACADEMY\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "Peachpie.App": {
+              "target": "Package",
+              "version": "[1.0.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

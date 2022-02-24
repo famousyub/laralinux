@@ -1,0 +1,2 @@
+C:\Users\TAKIACADEMY\Desktop\carthago\Website\obj\Debug\netstandard2.1\Website.msbuildproj.AssemblyReference.cache
+C:\Users\TAKIACADEMY\Desktop\carthago\Website\obj\Debug\netstandard2.1\Website.msbuildproj.CoreCompileInputs.cache

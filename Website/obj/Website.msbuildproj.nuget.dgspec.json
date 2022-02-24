@@ -1,0 +1,67 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\TAKIACADEMY\\Desktop\\carthago\\Website\\Website.msbuildproj": {}
+  },
+  "projects": {
+    "C:\\Users\\TAKIACADEMY\\Desktop\\carthago\\Website\\Website.msbuildproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\TAKIACADEMY\\Desktop\\carthago\\Website\\Website.msbuildproj",
+        "projectName": "carthago",
+        "projectPath": "C:\\Users\\TAKIACADEMY\\Desktop\\carthago\\Website\\Website.msbuildproj",
+        "packagesPath": "C:\\Users\\TAKIACADEMY\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\TAKIACADEMY\\Desktop\\carthago\\Website\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\TAKIACADEMY\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "Peachpie.App": {
+              "target": "Package",
+              "version": "[1.0.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
